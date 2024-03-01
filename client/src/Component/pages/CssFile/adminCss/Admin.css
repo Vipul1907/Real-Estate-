@@ -1,0 +1,146 @@
+.option_card {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 24px;
+}
+
+.option_card_one {
+    width: 92%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 24px;
+}
+
+.option_card_three {
+    width: 96%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 24px;
+}
+
+.option_card_two {
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 24px;
+}
+
+.proce_one {
+    width: 70%;
+    height: 100%;
+}
+
+.proce_two {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1.468px solid #F2F2F7;
+    background: #FFF;
+    width: 100%;
+    height: 100%;
+    padding: 23.487px 59.085px;
+}
+
+.opt_one {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    border: 1px solid #ACCCF5;
+    background: #E8F2FF;
+}
+
+.opt_one #opt_icon {
+    width: 24px;
+    height: 24px;
+    color: var(--main-color-primary);
+}
+
+.opt_one {
+    color: var(--main-color-second);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.proce_text h1 {
+    color: var(--main-color-second);
+    font-family: 'Noto Serif TC', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29.359px;
+}
+
+.proce_text p {
+    color: var(--gray-two);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px
+}
+
+.proce_one_one {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .proce_two {
+        padding: 14px 24px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .proce {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .proce_one {
+        width: 100%;
+
+    }
+
+    .proce_text {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .option_card_two,
+    .option_card_one,
+    .option_card_three {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .option_card {
+        gap: 12px;
+    }
+
+    .opt_one {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}

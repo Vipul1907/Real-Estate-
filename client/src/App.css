@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Lato&family=Open+Sans:wght@400;500;600&family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;600;700;900&family=Noto+Serif:wght@300;400;500;600;700&display=swap');
+
+
+
+/* font-family: 'Noto Serif TC', serif; */
+/* font-family: 'Open Sans', sans-serif; */
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color-primary: #19417C;
+  --main-color-second: #031021;
+  --main-color-second_two: #020A15;
+  --M3-sys-light-on-surface: #1D1B20;
+  --main-color-Tertiary: #CDE3FF;
+  --main-color-Tertiary_bor_two: #EDF4FF;
+  --main-color-Tertiary_bor: #BBD3F8;
+  --main-color-Tertiary_bor_copy: #B2CBF0;
+  --black-one: #1A1A1A;
+  --black-two: #1D1D1D;
+  --black-three: #282828;
+  --black-four: #22272F;
+  --main-white: #FFFFFF;
+  --gray-one: #333333;
+  --gray-two: #4F4F4F;
+  --gray-three: #828282;
+  --gray-four: #BDBDBD;
+  --gray-five: #E0E0E0;
+  --button-onclick-color: #ddd;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: #F9F9F9;
+}
+
+.container {
+
+  background: var(--main-color-primary);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700&display=swap');
+
+/* 
+font-family: 'Noto Serif', serif;
+ */
+
+.clas {
+  position: relative;
+}
+
+.page-link:hover {
+  z-index: 2;
+  color: #0a58ca;
+  background-color: none !important;
+  border-color: #dee2e6;
+}
+
+.page-link:focus {
+  z-index: 2;
+  --tw-ring-color: none !important;
+  color: #1A1A1A;
+  background-color: var(--main-color-primary);
+  border-color: none;
+
+}
+
+input {
+  border: 1.5px solid var(--main-color-primary);
+  margin-left: 10px;
+  color: var(--black-one);
+
+}
+
+.otp_submit_btn button:hover,
+.pagi_date_btn button:hover,
+.post_btn button:hover,
+.news_btn button:hover,
+.btn:hover,
+.small_card_btn_two button:hover,
+.card-btn a:hover {
+  color: #fff;
+  background: var(--main-color-primary);
+  box-shadow: 0px 1px 8.2px 0px rgba(0, 0, 0, 0.15);
+  transition: all ease-in-out .2s;
+}
+
+.otp_submit_btn button:focus,
+.pagi_date_btn button:focus,
+.post_btn button:focus,
+.news_btn button:focus,
+.btn:focus,
+.small_card_btn_two button:focus,
+.card-btn a:focus {
+  background: var(--main-color-primary);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  transition: all ease-in-out .3s;
+}
+
+.second_button button:hover {
+  border-radius: 1px;
+  border: 1px solid var(--main-color-second);
+  transition: all ease-in-out .3s;
+}

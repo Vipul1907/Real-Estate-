@@ -1,0 +1,155 @@
+.button_FAX {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fax_start {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.fax_main {
+    display: flex;
+    padding: 64px 80px 0px 80px;
+}
+
+.fax_start_one {
+    width: 100%;
+    height: 100%;
+}
+
+.fax_line {
+    width: 100%;
+    height: 1px;
+    background: var(--gray-five);
+}
+
+.fax_btn {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+.that_is .open {
+    padding: 0px 0px 24px 0px;
+}
+
+.that_is.open h3 {
+    width: 741px;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    padding: 0px 0px 24px 0px;
+}
+
+.fax_start h1 li {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--main-color-primary);
+}
+
+.fax_text h1 {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+}
+
+.button_FAX button {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.mainIsOpen h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100;
+    color: var(--gray-three);
+}
+
+.fax_start_start {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+@media screen and (max-width: 1200px) {
+    .that_is.open h3 {
+        width: 541px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .fax_main {
+        display: flex;
+        padding: 64px 50px 0px 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .that_is.open h3 {
+        width: 100%;
+    }
+
+    .fax_text h1 {
+        font-size: 52px;
+        line-height: 60px;
+    }
+
+    .button_FAX button {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .fax_btn {
+        height: 52px;
+    }
+
+    .mainIsOpen h3 {
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .fax_text h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .fax_start_start {
+        gap: 24px;
+    }
+
+    .fax_start h1 li {
+        font-size: 14px;
+    }
+
+    .fax_main {
+        display: flex;
+        flex-direction: column;
+        padding: 56px 30px 0px 30px;
+        gap: 12px;
+    }
+}

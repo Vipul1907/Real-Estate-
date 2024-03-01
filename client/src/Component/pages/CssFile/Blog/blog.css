@@ -1,0 +1,20 @@
+.blog {
+    margin-top: 150px;
+}
+
+.btn_1,
+.btn_2 {
+    background: var(--main-color-primary);
+    width: 150px;
+    height: 30px;
+    border-radius: 16px;
+    color: var(--main-color-second);
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn_1:hover,
+.btn_2:hover {
+    background-color: #F2CF4E;
+    color: var(--);
+}

@@ -1,0 +1,197 @@
+  /* ==========================================home-small-card start========================================== */
+
+  .small_main {
+    padding: 46.272px 64px 47px 64px;
+  }
+
+  .small_mains {
+    background: var(--main-color-Tertiary);
+    width: 100%;
+    height: 600px;
+  }
+
+  .small_text {
+    padding: 46.272px 64px 47px 64px;
+  }
+
+  .small_cards {
+    margin-left: 12px;
+  }
+
+  .small_card {
+    width: 321px;
+    height: 308px;
+    display: flex;
+    padding: 44px 44px 44px 23px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .small_card h1 {
+    color: var(--gray-one);
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 16px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+  .small_card h2 {
+    color: var(--gray-one);
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    padding-bottom: 32px;
+  }
+
+  .small_card .small_card_btn {
+    display: flex;
+    padding: 4px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid var(--main-color-Tertiary_bor);
+    background: var(--main-color-Tertiary);
+    color: var(--gray-one);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+
+  .small_card_btn_two button {
+    width: 124px;
+    height: 40px;
+    display: flex;
+    padding: 10px 24px 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: var(--main-color-primary);
+    color: var(--main-color-second);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    color: #ffff;
+  }
+
+  .small_text_one {
+    gap: 16px;
+  }
+
+  .small_text h2 {
+    color: var(--gray-one);
+    font-family: 'Noto Serif TC', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+  }
+
+  .b-refs-buttonse {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 19px 0px;
+    gap: 45px;
+  }
+
+  .buttons_ones {
+    border: 1px solid var(--main-color-second);
+    width: 39.7782px;
+    height: 44.72788px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .small_card_padding {
+    position: relative;
+    padding: 15px;
+  }
+
+  @media screen and (max-width:620px) {
+    .small_text h2 {
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 30px;
+    }
+
+    .small_card_size {
+      padding-left: .0rem;
+      padding-right: .0rem;
+    }
+
+    .small_card {
+      height: 268px;
+    }
+
+    .small_main {
+      padding: 46.272px 30px 47px 30px;
+    }
+
+    .small_text {
+      padding: 30.272px 24px 30px 24px;
+    }
+
+  }
+
+  @media screen and (max-width:450px) {
+    .b-refs-buttonse {
+      top: 60%;
+    }
+  }
+
+  @media screen and (max-width:520px) {
+    .small_card h1 {
+      padding-bottom: 12px;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 40px;
+    }
+
+    .small_card h2 {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 40px;
+      padding-bottom: 25px;
+    }
+
+    .small_card .small_card_btn {
+      gap: 10px;
+      font-size: 12px;
+      padding: 4px 8px;
+      font-weight: 600;
+      line-height: 28px;
+      margin-bottom: 16px;
+    }
+
+    .small_card_btn_two {
+      width: 124px;
+      height: 40px;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 28px;
+    }
+
+    .small_card {
+      padding: 20px 35px 34px 18px;
+    }
+  }
+
+  /* ==========================================home-small-card end========================================== */

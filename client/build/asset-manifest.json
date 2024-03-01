@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.62bf8982.css",
+    "main.js": "/static/js/main.7ebf2ab8.js",
+    "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
+    "static/media/carousel-1.png": "/static/media/carousel-1.8ffa36abd53aa24882aa.png",
+    "static/media/Image3.png": "/static/media/Image3.91fc0ad08f03e9b67130.png",
+    "static/media/Image of header.png": "/static/media/Image of header.d0ff52577d4a4124af07.png",
+    "static/media/unsplash.png": "/static/media/unsplash.f48085951b677e4dcaef.png",
+    "static/media/card_one.png": "/static/media/card_one.786ef46c89851b28e39c.png",
+    "static/media/bg-22.png": "/static/media/bg-22.465504190a409187ceb6.png",
+    "static/media/f-1.png": "/static/media/f-1.0692a766f411c752de23.png",
+    "static/media/Customer-Support -11.png": "/static/media/Customer-Support -11.cc34d43ce917b8aaf856.png",
+    "static/media/Avtar- tabish.png": "/static/media/Avtar- tabish.b112ccda6a475d740164.png",
+    "static/media/lines-header.svg": "/static/media/lines-header.d930dee942e98f597d2c.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "index.html": "/index.html",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/Vector.svg": "/static/media/Vector.c23e40f7e95a40f2d9f0b1c15779a74b.svg",
+    "static/media/Ellipse 2.svg": "/static/media/Ellipse 2.10693616b585fae40b25180f851522b3.svg",
+    "main.62bf8982.css.map": "/static/css/main.62bf8982.css.map",
+    "main.7ebf2ab8.js.map": "/static/js/main.7ebf2ab8.js.map",
+    "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62bf8982.css",
+    "static/js/main.7ebf2ab8.js"
+  ]
+}

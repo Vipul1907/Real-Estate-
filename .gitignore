@@ -1,0 +1,19 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor/IDE files
+.vscode/
+.idea/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore npm lock file
+package-lock.json
+
+# Ignore yarn lock file
+yarn.lock
+
+# Ignore environment variables file
+.env

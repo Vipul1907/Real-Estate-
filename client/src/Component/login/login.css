@@ -1,0 +1,961 @@
+/* leftside======================================= */
+
+.left {
+    width: 30%;
+    height: 100%;
+    background: var(--main-color-Tertiary_bor_two);
+    padding: 32px;
+}
+
+.left_login {
+    background-image: url(../assests/f-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 32px;
+}
+
+.left_one {
+    width: 297px;
+    height: 80px;
+    margin-bottom: 23px;
+}
+
+.left_one h3 {
+    color: var(--gray-one);
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+
+}
+
+.left_two {
+    width: 237px;
+    height: 48px;
+}
+
+.back_btn a {
+    gap: 8px;
+}
+
+.regi_image {
+    height: 468px;
+}
+
+.left_two h3 {
+    color: var(--gray-one);
+    font-size: 16px;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.dash_card_carousel_one_one,
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* leftside======================================= */
+.regi_two_one h1 {
+    color: var(--gray-five);
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+.regi_two_one .logo_ball {
+    width: 55px;
+    height: 55px;
+    background: var(--main-color-primary);
+    border-radius: 50%;
+}
+
+.right_main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 44px;
+    padding: 32px 54px 32px 2px;
+}
+
+.right {
+    display: flex;
+    width: 100%;
+    padding-left: 41px;
+}
+
+/* .register {
+    padding: 20px 80px 0px 80px;
+} */
+
+.registers {
+    border: 1px solid var(--main-color-primary);
+    background: var(--main-color-second_two);
+    box-shadow: 0px 1px 8.2px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.back_btn {
+    color: var(--gray-five);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.regi_one_two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.regi_two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    width: 372px;
+    height: 125px;
+}
+
+.regi_two p {
+    color: var(--gray-five);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.regi_one {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.otp_form {
+    height: 380px;
+    margin-top: 32px;
+    display: flex;
+    padding: 54px 44px;
+    flex-direction: column;
+    border: 1px solid var(--gray-one);
+    background: var(--main-color-second);
+    justify-content: center;
+    align-items: center;
+}
+
+.register_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding-top: 34px;
+    width: 100%;
+}
+
+.register_form #one {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    padding: 8px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--gray-two);
+    background: var(--gray-one);
+    color: #fff;
+}
+
+.register_form #one:hover,
+.register_form #one:focus {
+    border: 1px solid var(--main-color-primary);
+}
+
+.register_form #two:hover,
+.register_form #two:focus {
+    border: 1px solid var(--main-color-primary);
+}
+
+.phone {
+    width: 100%;
+}
+
+.register_form #two {
+    display: flex;
+    width: 98%;
+    height: 40px;
+    padding: 8px 46px 8px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--gray-two);
+    background: var(--gray-one);
+    color: white;
+}
+
+.form-control:hover {
+    border: 1px solid var(--main-color-primary) !important;
+}
+
+.form-control {
+    font-family: 'Open Sans', sans-serif !important;
+    width: 590px !important;
+    height: 40px !important;
+    padding: 8px 16px !important;
+    border: 1px solid var(--gray-two) !important;
+    background: var(--gray-one) !important;
+    color: white !important;
+}
+
+.react-tel-input .flag-dropdown {
+    border: 1px solid var(--gray-two) !important;
+    background: var(--gray-one) !important;
+}
+
+.phone_inpute {
+    padding-left: 10px !important;
+}
+
+.react-tel-input .form-control {
+    margin-left: 33px
+}
+
+.form_one {
+    width: 98%;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.form_one_first,
+.form_one_second {
+    width: 100%;
+
+}
+
+.pass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.new_pass_fild {
+    width: 100%;
+}
+
+.form_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.form_btn_one {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.form_btn_one .form_btn_one_one {
+    padding: 8px 24px;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    color: var(--main-color-second);
+    background: var(--main-color-primary);
+    text-align: center;
+    color: #FFF;
+}
+
+.form_btn_one .form_btn_one_two {
+    padding: 7px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--gray-five);
+    background: var(--gray-one);
+    color: var(--gray-five);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    gap: 4px;
+}
+
+.login_btn {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+
+#login_btn {
+    width: 100%;
+    height: 78px;
+    display: flex;
+    align-items: center !important;
+    justify-content: flex-end;
+    gap: 32px;
+
+}
+
+.login_btn p {
+    color: var(--gray-five);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.login_con {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.login_con button {
+    padding: 8px 24px;
+    color: var(--gray-five);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    gap: 8px;
+    border: 1px solid var(--gray-five);
+}
+
+
+.react-tel-input .country-list {
+    border: 1px solid var(--gray-two);
+    background: var(--gray-one);
+    color: var(--gray-five);
+}
+
+.react-tel-input .flag-dropdown.open .selected-flag {
+    border: 1px solid var(--gray-two);
+    background: var(--gray-one);
+    color: var(--gray-five);
+}
+
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+    border: 1px solid var(--gray-two);
+    background: var(--gray-one);
+    color: var(--gray-five);
+}
+
+.react-tel-input .country-list .country.highlight {
+    border: 1px solid var(--gray-two);
+    background: var(--gray-one);
+    color: var(--gray-five);
+}
+
+.react-tel-input .country-list .country:hover {
+    border: 1px solid var(--gray-two);
+    background: var(--gray-one);
+    color: var(--gray-five);
+}
+
+.forgat_button {
+    width: 100%;
+}
+
+.forgat_ani {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.forgat_ani a {
+    color: var(--main-color-primary);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.forgat_btn {
+    width: 100%;
+    height: 30px;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.spin {
+    display: none;
+}
+
+.inp_pop {
+    width: 100%;
+}
+
+.inp_pop input {
+    width: 100% !important;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs_fuldd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.otp_main {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+}
+
+.otp_second_five {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.otp_second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.input {
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: var(--gray-five);
+    gap: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    pointer-events: none;
+    text-align: center;
+    background: var(--gray-one);
+}
+
+.input:focus {
+    outline: none;
+    border-color: none;
+}
+
+.input:nth-child(1) {
+    cursor: pointer;
+    pointer-events: all;
+    outline-color: none;
+}
+
+.input:nth-child(2) {
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.input:nth-child(3) {
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.input:nth-child(4) {
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.input:nth-child(5) {
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.input:nth-child(6) {
+    cursor: pointer;
+    pointer-events: all;
+}
+
+
+/* ===========================================otp function */
+.otp_second_five h1 {
+    color: var(--gray-five);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.otp_second_five p {
+    color: var(--gray-five);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.send_Otp {
+    position: absolute;
+    right: 15px;
+    color: var(--gray-five);
+}
+
+.otp_submit_btn button {
+    display: flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    color: var(--main-color-second);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    height: 40px;
+    width: 100%;
+    background: var(--main-color-primary);
+}
+
+.otp_submit_time h5 {
+    color: var(--gray-five);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.regi_two_one {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.otp_verify {
+    color: var(--gray-two) !important;
+    z-index: 1 !important;
+}
+
+.start_pop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.main_popup {
+    width: 550px !important;
+    height: 400px !important;
+    border: 2px solid black;
+    padding: 34px 44px;
+    background: var(--main-color-second);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.finle_otp_section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.text_pop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.text_pop h1 {
+    color: var(--gray-five);
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.text_pop p {
+    color: var(--gray-five);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 24px;
+}
+
+.button_pop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button_pop button {
+    padding: 10px 24px;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    background: var(--main-color-primary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.button_pop button:focus {
+    border-radius: 1px;
+    background: var(--main-color-primary);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    transition: all ease-in-out .3s;
+}
+
+.closebtn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#otp_close_icon {
+    width: 24px;
+    height: 24px;
+    color: var(--gray-five);
+}
+
+.close_icon_start {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.otp_minits {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.otp_minits h3 {
+    color: var(--gray-five);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.otp_minits button {
+    color: var(--gray-five);
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 4px 16px;
+    border: 1px solid #FFF;
+}
+
+/* ================================== login  :start================================================ */
+.form_start {
+    width: 100%;
+}
+
+#form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#regi_one {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 84px 0px 84px;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.reset {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.reset button {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.login_last {
+    display: flex;
+    flex-direction: column;
+    gap: 124px;
+}
+
+.account {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.account_btn {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.text_acc h3 {
+    color: var(--grey-5, #E0E0E0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.text_btn button {
+    padding: 8px 24px;
+    border: 1px solid var(--gray-five);
+    box-shadow: 0px 1px 8.2px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* ================================== login  :end================================================ */
+/* ================================== media quary  :start================================================ */
+@media screen and (max-width: 1200px) {
+    .left {
+        display: none;
+    }
+
+    .regi_one_two {
+        justify-content: flex-start;
+    }
+
+    .regi_two_one {
+        width: 100%;
+    }
+
+    .left_one,
+    .left_two {
+        width: 100%;
+        height: 100%;
+    }
+
+    .regi_two {
+        gap: 5px;
+    }
+
+    .left_one h3 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .right {
+        padding-left: 14px;
+        gap: 44px;
+    }
+
+    .register_form {
+        padding-top: 24px;
+    }
+
+    .form_btn_one .form_btn_one_two,
+    .form_btn_one .form_btn_one_one {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+
+    .register_form #one {
+        height: 36px;
+    }
+
+    .register_form #two {
+        height: 36px;
+    }
+
+    .toggle-password {
+        top: 6px;
+    }
+
+    .login_con button {
+        padding: 4px 24px;
+    }
+
+    .right_main {
+        padding: 32px 54px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .right_main {
+        padding: 14px 24px;
+    }
+
+    .right {
+        padding-left: 0px;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .regi_two_one {
+        gap: 8px;
+    }
+
+    .right_main {
+        gap: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .regi_two {
+        width: 100%;
+    }
+
+    .regi_two_one .logo_ball {
+        width: 44px;
+        height: 44px;
+    }
+
+    .regi_two_one h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .regi_two_one {
+        gap: 12px;
+    }
+
+    .login_btn p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .back_btn {
+        font-size: 14px;
+        line-height: 10px;
+    }
+
+    .back_btn a {
+        gap: 4px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .register_form {
+        padding-top: 0px;
+        gap: 12px;
+    }
+
+    .pass {
+        gap: 12px;
+    }
+
+    .form_btn_one {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .regi_two p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .form_one {
+
+        flex-direction: column;
+    }
+
+    .form_btn_one .form_btn_one_two,
+    .form_btn_one .form_btn_one_one {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+
+    .login_con button {
+        padding: 4px 12px;
+        font-size: 12px;
+    }
+
+    .login_con {
+        gap: 0px;
+    }
+}
+
+/* ================================== media quary  :end================================================ */
