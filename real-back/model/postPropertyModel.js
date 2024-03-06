@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const { ObjectId } = mongoose.Schema.Types; 
 
 const postPropertySchema = new mongoose.Schema({
   cityName: {
@@ -30,7 +31,7 @@ const postPropertySchema = new mongoose.Schema({
     // required: true,
   },
   perks: {
-    type: [String], 
+    type: [String],
   },
   locality: {
     type: String,
@@ -50,8 +51,11 @@ const postPropertySchema = new mongoose.Schema({
   //imgpath
   uploadPropertyImages: {
     type: [String],
-  // required: true,
+    // required: true,
   },
+  timestamp: { type: Date, default: Date.now },
+
+  likes: [{ type: ObjectId, ref: "User" }],
 });
 
 module.exports = new mongoose.model("PostedProperties", postPropertySchema);

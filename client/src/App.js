@@ -15,88 +15,24 @@ import StepContext from "./Component/PostProperty/StepContext";
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              {" "}
-              <Navbar />
-              <Home />
-              <Footer />{" "}
-            </>
-          }
-        />
-        <Route
-          path="/blog"
-          element={
-            <>
-              {" "}
-              <Navbar />
-              <HorizontalNonLinearStepper />
-              <Footer />{" "}
-            </>
-          }
-        />
-        <Route
-          path="/cardinform"
-          element={
-            <>
-              {" "}
-              <Navbar />
-              <CardInform />
-              <Footer />{" "}
-            </>
-          }
-        />
-        <Route
-          path="/wishlist"
-          element={
-            <>
-              {" "}
-              <Navbar />
-              <Wishlist />
-              <Footer />{" "}
-            </>
-          }
-        />
-        <Route
-          path="/basicTabs"
-          element={
-            <>
-              {" "}
-              <Navbar />
-              <Dashboard />
-              <Footer />{" "}
-            </>
-          }
-        />
-        <Route
-          path="/register*"
-          element={
-            <>
-              <Register />
-            </>
-          }
-        />
-        <Route
-          path="/login*"
-          element={
-            <>
-              <Login />
-            </>
-          }
-        />
-        <Route
-          path="/postMian"
-          element={
-            <StepContext>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<HorizontalNonLinearStepper />} />
+        {/* <Route path="/cardinform" element={<CardInform />} /> */}
+        <Route path="/cardinform/:id" element={<CardInform />} />
+        <Route path="/wishlist" element={<Wishlist />} />
+        <Route path="/basicTabs" element={<Dashboard />} />
+        <Route path="/register*" element={<Register />} />
+        <Route path="/login*" element={<Login />} />
+        <Route   path="/postMian"  element={        <StepContext>
               {" "}
               <PostMain />
             </StepContext>
           }
         />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

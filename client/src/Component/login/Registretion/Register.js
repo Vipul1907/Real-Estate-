@@ -29,7 +29,7 @@ Modal.setAppElement("#root");
 
 const Register = () => {
   const [showPassword, setShowPassword] = useState(false);
-  const [showCpassword, setShowCpassword] = useState(false);
+  // const [showCpassword, setShowCpassword] = useState(false);
   const [otp, setOtp] = useState("");
   const [isOpen, setIsOpen] = useState(false);
 
@@ -38,9 +38,9 @@ const Register = () => {
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
   };
-  const togglecPasswordVisibility = () => {
-    setShowCpassword(!showCpassword);
-  };
+  // const togglecPasswordVisibility = () => {
+  //   setShowCpassword(!showCpassword);
+  // };
 
   // =========================================================login wala
   // =========================================================login wala
@@ -51,8 +51,8 @@ const Register = () => {
     lastName: "",
     email: "",
     phoneNumber: "",
-    password: "",
-    cpassword: "",
+    password: ""
+    // cpassword: "",
   });
   const handleInputs = (e) => {
     const name = e.target.name;
@@ -160,7 +160,7 @@ const Register = () => {
   };
   // ===================================================
   const PostData = async () => {
-    const { firstName, lastName, email, phoneNumber, password, cpassword } =
+    const { firstName, lastName, email, phoneNumber, password } =
       user;
     try {
       const response = await fetch("http://localhost:8000/api/Register", {
@@ -174,7 +174,7 @@ const Register = () => {
           email,
           phoneNumber,
           password,
-          cpassword,
+          // cpassword,
         }),
       });
       const data = await response.json();
@@ -196,8 +196,8 @@ const Register = () => {
       user.lastName === "" ||
       user.email === "" ||
       user.phoneNumber === "" ||
-      user.password === "" ||
-      user.cpassword === ""
+      user.password === ""
+      // ||      user.cpassword === ""
     ) {
       alert("Please fill in all the required fields.");
       return;
@@ -305,7 +305,7 @@ const Register = () => {
                         {showPassword ? <MdVisibility /> : <MdVisibilityOff />}
                       </div>
                     </div>
-                    <div className="new_pass_fild relative">
+                    {/* <div className="new_pass_fild relative">
                       <input
                         type={showCpassword ? "text" : "password"}
                         name="cpassword"
@@ -321,7 +321,7 @@ const Register = () => {
                       >
                         {showCpassword ? <MdVisibility /> : <MdVisibilityOff />}
                       </div>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="form_btn ">

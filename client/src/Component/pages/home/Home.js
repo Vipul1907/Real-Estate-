@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import "../home/home.css";
 import HomeSectionCarousel from "../../multiuse/card/HomeSectionCarousel";
 import HomeCard from "../../multiuse/slider/HomeCard";
 import Smallcards from "../../multiuse/slider/Smallcards";
 import HomeThree from "./HomeThree";
 import HomeProcess from "./HomeProcess";
+import { AppContext } from "../../../Context/PropertyContext";
+import { usePropertyContext } from "../../../Context/PropertyContext";
+
 
 const Home = () => {
+      
+  const { MyName } = usePropertyContext();
+
   return (
     <>
       <div className="home">
@@ -17,6 +23,9 @@ const Home = () => {
             </h1>
             <h1 className="flex items-center justify-center">
               for Premium Spaces
+            </h1>
+            <h1 className="flex items-center justify-center">
+              {MyName}
             </h1>
           </div>
 
@@ -33,7 +42,6 @@ const Home = () => {
       <HomeSectionCarousel />
       <Smallcards />
       <HomeThree />
-
     </>
   );
 };

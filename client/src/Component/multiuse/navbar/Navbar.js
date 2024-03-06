@@ -1,18 +1,22 @@
-import React, { Component } from "react";
+import React, { Component, useContext } from "react";
 import "../multiuse.css";
 import { MenuProduct, MenuTwo } from "../menu-items/Menuproduct";
 import { Link } from "react-router-dom";
 import { FaUser } from "react-icons/fa";
 import ProfileTwo from "../../assests/Ellipse 2.svg";
+import { AppContext } from "../../../Context/PropertyContext";
 // import PostMain from "../../PostProperty.js/PostMain";
 // import Register from "../../login/Registretion/Register";
 
 class Navbar extends Component {
+
+  
   state = { clicked: false };
   handleClick = () => {
     this.setState({ clicked: !this.state.clicked });
   };
   render() {
+
     return (
       <div className="nav">
         <nav className="NavbarItem">

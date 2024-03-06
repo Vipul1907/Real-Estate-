@@ -12,6 +12,9 @@ import { BiSolidParking } from "react-icons/bi";
 import InfromImg from "../../assests/card_one.png";
 // import HomeSectionCarousel from "../card/HomeSectionCarousel";
 import WishlistCard from "../card/WishlistCard";
+import HomeSectionCarousel from "../card/HomeSectionCarousel";
+
+
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -45,12 +48,30 @@ function a11yProps(index) {
   };
 }
 
-export default function Inform() {
+export default function Inform({ propertyData }) {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
+
+
+   if (!propertyData) {
+     return <div>Loading...</div>;
+  }
+
+  console.log("Property Data:", propertyData);
+
+  const {
+    selectBhk,
+    propertyTitle,
+    locality,
+    description,
+    propertyPrice,
+    propertyPriceType,
+    perks,
+    uploadPropertyImages,
+  } = propertyData;
 
   return (
     <>
@@ -76,25 +97,23 @@ export default function Inform() {
                       <div className="infrom_two_one gap-10">
                         <div className="inform_bhk ">
                           <h4 className=" flex items-center gap-4">
-                            <RiBuilding2Fill /> 4bhk
+                            <RiBuilding2Fill /> {selectBhk}
                           </h4>
                         </div>
-                        <h1 className="pt-4">South Delhi Luxury Homes</h1>
+                        <h1 className="pt-4">{propertyTitle}</h1>
                         <div className="inform_bhk_one pt-4">
                           <h4 className="flex items-center gap-4">
-                            <ImLocation2 /> GK I, New Delhi
+                            <ImLocation2 />
+                            {locality}
                           </h4>
                         </div>
-                        <p className="inform_para pt-4">
-                          Lorem ipsum dolor sit amet consectetur. Fermentum
-                          risus non vivamus tortor tortor. Congue dictum amet
-                          etiam ut ac dui. Sit egestas laoreet phasellus
-                          suspendisse tincidunt enim mauris. Interdum at aliquam
-                          duis ullamcorper in consectetur.
-                        </p>
+                        <p className="inform_para pt-4">{description}</p>
                         <div className="this_is_btn">
                           <h1 className="flex items-center gap-8">
-                            ₹5.0 Cr <button>negotiable</button>
+                            ₹{propertyPrice}{" "}
+                            {propertyPriceType === "Fix Price" && (
+                              <button>negotiable</button>
+                            )}
                           </h1>
                         </div>
 
@@ -114,111 +133,36 @@ export default function Inform() {
                   </div>
                 </div>
               </CustomTabPanel>
+              {/* Amenities */}
               <CustomTabPanel value={value} index={1}>
                 <div className="infrom_text_one_one ">
                   <div className="infrom_text_one_one_second">
-                    {/* 1 */}
-                    <div className="infrom_mul_btn">
-                      <button className="flex items-center gap-2">
-                        <span className="infrom_span">
-                          <BiSolidParking className="infrom_icon" />
-                        </span>
-                        Parking
-                      </button>
-                      <button className="flex items-center gap-2 ">
-                        <span className="infrom_span">
-                          <BiSolidParking className="infrom_icon" />
-                        </span>
-                        Parking
-                      </button>
-                      <button className="flex items-center gap-2">
-                        <span className="infrom_span">
-                          <BiSolidParking className="infrom_icon" />
-                        </span>
-                        Parking
-                      </button>
-                    </div>
-                    {/* 2 */}
-                    <div className="infrom_mul_btn" id="infrom_id">
-                      <button className="flex items-center gap-2">
-                        <span className="infrom_span">
-                          <BiSolidParking className="infrom_icon" />
-                        </span>
-                        Parking
-                      </button>
-                      <button className="flex items-center gap-2 ">
-                        <span className="infrom_span">
-                          <BiSolidParking className="infrom_icon" />
-                        </span>
-                        Parking
-                      </button>
-                      <button className="flex items-center gap-2">
-                        <span className="infrom_span">
-                          <BiSolidParking className="infrom_icon" />
-                        </span>
-                        Parking
-                      </button>
-                    </div>
-                    {/* 3 */}
-                    <div className="infrom_mul_btn" id="infrom_id">
-                      <button className="flex items-center gap-2">
-                        <span className="infrom_span">
-                          <BiSolidParking className="infrom_icon" />
-                        </span>
-                        Parking
-                      </button>
-                      <button className="flex items-center gap-2">
-                        <span className="infrom_span">
-                          <BiSolidParking className="infrom_icon" />
-                        </span>
-                        Parking
-                      </button>
-                      <button className="flex items-center gap-2">
-                        <span className="infrom_span">
-                          <BiSolidParking className="infrom_icon" />
-                        </span>
-                        Parking
-                      </button>
-                    </div>
-                    {/* 4 */}
-                    <div className="infrom_mul_btn" id="infrom_id">
-                      <button className="flex items-center gap-2">
-                        <span className="infrom_span">
-                          <BiSolidParking className="infrom_icon" />
-                        </span>
-                        Parking
-                      </button>
-                      <button className="flex items-center gap-2">
-                        <span className="infrom_span">
-                          <BiSolidParking className="infrom_icon" />
-                        </span>
-                        Parking
-                      </button>
-                      <button className="flex items-center gap-2">
-                        <span className="infrom_span">
-                          <BiSolidParking className="infrom_icon" />
-                        </span>
-                        Parking
-                      </button>
-                    </div>
+                    {perks &&
+                      perks.map((perk, index) => (
+                        <div className="infrom_mul_btn" key={index}>
+                          <button className="flex items-center gap-2">
+                            <span className="infrom_span">
+                              <BiSolidParking className="infrom_icon" />
+                            </span>{" "}
+                            {perk}
+                          </button>
+                        </div>
+                      ))}
                   </div>
                 </div>
               </CustomTabPanel>
+
               <CustomTabPanel value={value} index={2}>
                 <div className="infrom_text_one_one ">
                   <div className="infrom_first_img">
-                    <img src={InfromImg} alt="" />
-                  </div>
-                  <div className="infrom_second_img pt-2">
-                    <div className="infrom_second_one">
-                      <img src={InfromImg} alt="" />
-                    </div>
-                    <div className="infrom_second_two">
-                      <img src={InfromImg} alt="" />
-                    </div>
-                  </div>
-                  <div className="infrom_first_img pt-2">
-                    <img src={InfromImg} alt="" />
+                    {uploadPropertyImages &&
+                      uploadPropertyImages.map((image, index) => (
+                        <img
+                          key={index}
+                          src={image}
+                          alt={`Image ${index + 1}`}
+                        />
+                      ))}
                   </div>
                 </div>
               </CustomTabPanel>
@@ -227,7 +171,7 @@ export default function Inform() {
         </Box>
       </div>
       <div className="inform_card mt-10">
-        <WishlistCard />
+        <HomeSectionCarousel />
       </div>
     </>
   );

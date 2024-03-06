@@ -19,21 +19,21 @@ const Login = () => {
     password: "",
   });
 
-   const handleInput = (e) => {
-     const { name, value } = e.target;
-     setUser({ ...user, [name]: value });
-   };
+  const handleInput = (e) => {
+    const { name, value } = e.target;
+    setUser({ ...user, [name]: value });
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     const { email, password } = user;
     try {
-      const response = await axios.post("http://localhost:8000/api/login",
-        user);
+      const response = await axios.post(
+        "http://localhost:8000/api/Login",
+        user
+      );
 
       if (response.status === 200) {
-        // // const { token } = response.data;
-        // localStorage.setItem("token", response.data); // Store token in local storage
         const token = response.data.token;
         localStorage.setItem("token", token);
 
