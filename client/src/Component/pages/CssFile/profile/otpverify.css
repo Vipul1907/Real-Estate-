@@ -1,0 +1,411 @@
+.profile-parent{
+    padding: 128px 70px 0px;
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    height: 100%;
+}
+.profile_aside{
+    width: 50%;
+    border: 1px solid var(--main-color-Tertiary);
+}
+
+.back-btn{
+    display:flex;
+    align-items: center;
+    gap:2px;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    padding: 16px;
+}
+.profile-child{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.profile-img{
+    padding: 0px 15px 20px 15px ;
+    width: 50%;
+    height: 50%;
+}
+.pro-text h1{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.pro-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-variation-settings: 'wdth' 100;   
+}
+.pro_aside_child2{
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+   background: #ffff;
+   border-top: 2px solid var(--gray-four);
+   border-radius: 16px 16px 0px 0px;
+   padding: 34px 16px;
+   width: 100%;
+   margin-top: 28px;
+}
+.pro-wishlist{
+    display: flex;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    justify-content: space-between;
+    gap:12px;
+}
+.pro-manage{
+    display: flex;
+    height:100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 12px;
+}
+.help-center{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.logout{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile-u{
+    display: flex;
+    align-items: center;
+    width:100%;
+    border: 1px solid var(--main-color-Tertiary);
+    padding: 44px 32px;
+}
+.main-profile{
+    display:flex;
+    gap: 24px;
+    flex-direction: column;
+    width: 100%;
+}
+.pro_info{
+    display: flex;
+    align-items: center;
+    gap:16px;
+    width: 100%;
+  
+}
+.pro_img_info{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-img1{
+    padding: 0px 0px 12px;
+    width: 50%;
+    height: 50%;
+}
+.pro_img-info-text{
+    width: 100%;
+    display: flex;
+    gap:8px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.upload-btn {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    
+}
+.upload-btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px ;
+    gap:10px;
+    border-radius: 50px;
+    box-shadow:0px 10px 15px #a0a0a0;
+    gap: 10px;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    padding: 4px 12px;
+}
+.pro_img-info-text p{
+    display: flex;
+    color: var( --gray-three);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-variation-settings: 'wdth' 100;
+}
+.pro-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    
+}
+.pro_name{
+    width: 100%;
+    color: var( --gray-three);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.pro_name input ,.pro_email input{
+    width: 100%;
+    color: var( --gray-three);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.update-btn button{
+    padding: 8px 16px;
+    background-color: var(--main-color-primary);
+    color: white;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+/*==================== OTP Sent =====================================*/
+.otp-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    border: 1px solid var(--main-color-Tertiary);
+    padding: 44px 32px;
+}
+/* .otp-child{
+
+} */
+.otp-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.otp-request{
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+}
+.otp-request h3{
+    color: var(--gray-one);
+    font-family: 'Noto Serif TC', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center; 
+}
+.otp-request p{
+    color: var(--gray-two);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-variation-settings: 'wdth' 100;
+}
+.otp-box{
+    width: 100%;
+}
+/* .otp_verify{
+    color: var(--gray-two) !important;
+    z-index: 1 !important;
+} */
+.otp-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 32px 24px;
+}
+.otp-btn button {
+    padding: 8px 16px;
+    background-color: var(--main-color-primary);
+    color: white;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.otp-btn button:focus {
+    border-radius: 1px;
+    background: var(--main-color-primary);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    transition: all ease-in-out .3s;
+}
+
+.wait-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.wait-text p {
+    color: var(--gray-two);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+.bottom-text{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    justify-content: flex-end;
+}
+.bottom-text p{
+    color: var(--gray-one);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.resend-btn button{
+    padding: 8px 16px;
+    border: 1px solid black;
+    color:var(--main-color-second);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/* ================================================================= */
+
+/* 
+
+@media screen and (max-width: 1200px){
+    .profile-parent{
+        padding: 128px 60px 0px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .profile-parent{
+        display:flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 128px 50px 0px;
+    }
+    .resend-btn button{
+        padding: 4px 12px;
+        font-size: 14px;
+    }
+    .profile_aside{
+        width: 100%;
+    }
+    .profile-child{
+        gap: 0px;
+        padding: 0px 0px 24px 0px;
+    }
+    .pro_aside_child1_copy{
+        display: flex;
+        align-items: center;  
+    }
+    .back-btn{
+    }
+    .pro_aside_child2{
+        border-top: 0px;
+        border-radius: 0px;
+        margin-top: 0px;
+    }
+    .pro_img-info-text{
+        gap: 16px;
+    }
+} 
+@media screen and (max-width: 768px){
+    .profile-parent{
+        padding: 128px 40px 0px;
+    }
+}
+@media screen and (max-width: 600px){
+    .profile-parent{
+        padding: 128px 30px 0px;
+    }
+    .back-btn{
+        font-size: 16px;
+    }
+    .pro_aside_child1_copy{
+        display: block;
+    }
+    .pro_aside_child1{
+        gap: 8px;
+        width: 100%;
+    }
+    .pro-text h1{
+        font-size: 26px;
+    }
+   .update-btn button{
+    font-size: 12px;
+   }
+   .upload-btn button{
+    font-size: 14px;
+   }
+    .pro_img-info-text{
+        padding-bottom:  26px; 
+    }
+
+    .pro_name input, .pro_email input{
+        font-size: 12px;
+    }
+    .pro_info{
+        display: block;
+    }
+
+} */

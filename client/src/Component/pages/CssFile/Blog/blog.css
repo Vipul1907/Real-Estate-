@@ -1,20 +1,236 @@
 .blog {
-    margin-top: 150px;
+    display: flex;
+    padding: 128px 75px 0px;
+    flex-direction: column;
+    width: 100%;
+    gap: 44px;
+    height: 100%;
+}
+.blog-heading{
+    background-color: var(--main-color-second);
+    padding: 100px 180px;
+
+}
+.heading-text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 44px 70px;
+    gap: 44px;
+}
+.heading-text h1{
+    color: white;
+    font-family: Noto Serif TC;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+}
+.heading-input{
+    padding: 4px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4px;
+    background-color: var(--black-four);
+    border: 1px solid grey;
 }
 
-.btn_1,
-.btn_2 {
-    background: var(--main-color-primary);
-    width: 150px;
-    height: 30px;
-    border-radius: 16px;
-    color: var(--main-color-second);
-    margin: 10px;
-    cursor: pointer;
+.heading-input input{
+width: 80%;
+background-color: var(--black-four);
+color: var( --gray-four);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 450;
+line-height: 24px;
+letter-spacing: 0em;
+border: none;
+text-align: left;
+font-variation-settings: 'wdth' 100;
+
+}
+.heading-btn{
+    display: flex;
+    padding: 8px 12px;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color-primary);
+}
+.heading-btn button{
+    color: white;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+.label-text-parent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap:0px 16px;
+}
+.text1{
+    position:relative;
+    line-height:24px;
+}
+.component-2{
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    height:40px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 61px;
+    text-align: center;
+    color: #1d1b20;
+}
+.label-text-group{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+
 }
 
-.btn_1:hover,
-.btn_2:hover {
-    background-color: #F2CF4E;
-    color: var(--);
+#search-line-icon{
+    width: 24px;
+    position: relative;
+    flex-direction: row;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
 }
+.gallery{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.image-container img {
+    /* width: 100%;
+    height: 100%; */
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 20px; */
+  }
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+.image-text {
+    position: absolute;
+    bottom: 10px;
+    font-family: Noto Serif TC;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    left: 10px;
+    color: white;
+    padding: 0px 93px 20px 17px;
+}
+/* 
+@media screen and (max-width: 1200px){
+    .blog {
+        padding: 128px 60px 0px;
+    }
+
+    .heading-text h1{
+        font-size: 64px;
+    }
+    .image-text{
+        bottom: 0px;
+        font-size: 18px;
+        line-height: 25px;
+        padding: 0px 75px 16px 5px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .blog {
+            padding: 128px 50px 0px;
+    }
+    .heading-text h1 {
+        font-size: 54px;
+    }
+    .heading-text{
+        align-items: center;
+        padding: 30px;
+    }
+    .heading-btn button{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .gallery{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    .image-text{
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .blog {
+            padding: 128px 40px 0px;
+    }
+    .blog-heading{
+        padding: 60px;
+    }
+    .heading-text h1{
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .image-text{
+        padding: 0px 60px 12px 0px;
+    }
+    .image-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .blog{
+        padding: 128px 32px 0px;
+    }
+    .blog-heading {
+        padding: 40px;
+    }
+    .heading-text h1 {
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 40px;
+    }
+    .heading-input{
+        width: 90%;
+    }
+    .heading-input input{
+        font-size: 14px;
+    }
+    .heading-btn button {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .heading-btn{
+        padding: none;
+    }
+    .gallery {
+        padding: 0px 30px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+    .image-text{
+        padding: 0px 130px 20px 20px;
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+} */
