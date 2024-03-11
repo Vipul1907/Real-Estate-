@@ -1,0 +1,78 @@
+.Nav_item {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 32px 12px 32px;
+    width: 75%;
+    height: 76px;
+    align-items: center;
+    position:sticky;
+    left: 15%;
+    gap: 10px;
+    /* position: relative; */
+    border: 1px solid var(--main-color-Tertiary);
+    background: rgba(255, 255, 255, 0.90);
+}
+.dash_link{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+.search-bar{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.Search-input{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    align-content: flex-start;
+
+}
+.se-input{
+    display: flex;
+    width: 100%;
+    padding: 4px 12px;
+    border-radius: 15px;
+}
+.input button{
+    border-radius: 15px;
+    width: 80%;
+    border: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.search-btn{
+    background: #22272F;
+}
+.search-btn button{
+    color: white;
+    padding: 8px 24px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.abt-btn{
+    display: flex;
+    background-color: white;
+    border: 1px solid grey;
+    align-items: center;
+    padding: 4px;
+    
+}
+.abt-btn button{
+    color: black;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}

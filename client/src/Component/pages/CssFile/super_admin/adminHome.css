@@ -1,0 +1,128 @@
+.admin_main{
+    display: flex;
+    padding :30px;
+    height: 100%;
+    flex-direction: column;
+    border: 1px solid var(--main-color-Tertiary);
+    background: rgba(255, 255, 255, 0.90);
+    gap: 32px;
+}
+.overview h4 {
+    color: var(----black-four);
+    font-family: 'Noto Serif TC', serif;;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.overview_section{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.pro-text{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.pro-text h4{
+    color: var(----main-color-second);
+    font-family: 'Noto Serif TC', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.pro-text h5{
+    color: var(--gray-two);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.pro-text h6{
+    color: #329236;;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.req-text {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.req-text h4 {
+    color: #9B0F1A;;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.req-text h5 {
+    color: var(--gray-two);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.req-text h6 {
+    color: #9B0F1A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.add-text {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.add-text h4 {
+    color: var(----main-color-second);
+    font-family: 'Noto Serif TC', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.add-text h5 {
+    color: var(--gray-two);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.add-text h6 {
+    color: #9B0F1A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}

@@ -14,7 +14,9 @@ import StepContext from "./Component/PostProperty/StepContext";
 // import DashboardNew from "./Component/pages/Dashabord/newDashboard/DashboardNew";
 import Profile from "./Component/profile/profile"
 import Blog from "./Component/pages/blog/Blog";
-// import Admin_Nav from "./Component/super_admin/admin_nav";
+import Admin_aside from "./Component/super_admin/admin_aside";
+import Admin_nav from "./Component/super_admin/admin_nav";
+import AdminHome from "./Component/super_admin/adminHome";
 function App() {
   return (
     <BrowserRouter>
@@ -125,10 +127,21 @@ function App() {
           element={
             <>
               {" "}
-              <Admin_Nav />
+              
             </>
           }
         /> */}
+        <Route
+          path="/adminhome"
+          element={
+            <>
+              {" "}
+              {/* <Admin_aside /> */}
+              {/* <Admin_nav /> */}
+              <AdminHome />{" "}
+            </>
+          }
+        />
       </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,211 @@
+.aside{
+    display: flex;
+    width: 15%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    position:sticky;    
+    border: 1px;
+    background: var(--main-color-second)
+}
+.section{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: left;
+    padding: 16px 24px 0px 24px;
+    gap: 32px;
+}
+.admin_profile{
+    display: flex;
+    padding: 8px;
+    flex-direction: row;
+    gap: 8px;
+}
+.admin_img{
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+.admin_profile p{
+    font-family: Noto Serif TC;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.Dash_section{
+    gap:4px;
+}
+.Dash_section H5{
+    color: white;
+    font-family: Noto Serif TC;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.home-btn{
+   display: flex;
+   gap: 4px;
+   align-items: center;
+}
+#home-btn{
+    color: white;
+}
+.home-btn:hover{
+    background-color: #19417C;
+}
+.home-btn button{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100;
+    color: white;
+}
+.approve-btn{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+#approve-btn{
+    color: white;
+}
+.approve-btn:hover{
+    background-color: #19417C;
+}
+.approve-btn button{ 
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100;
+    color: white;
+}
+.General_section{
+    gap: 4px;
+
+}
+.General_section h5{
+    color: white;
+    font-family: Noto Serif TC;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.edit-btn{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+#edit-btn{
+    color: white;
+}
+.edit-btn:hover{
+    background-color: #19417C;
+}
+.edit-btn button{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100;
+    color: white;
+}
+.manage-btn{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+#manage-btn{
+    color: white;
+}
+.manage-btn:hover{
+    background-color: #19417C;
+}
+.manage-btn button{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100;
+    color: white;
+}
+.refer-btn{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+#refer-btn{
+    color: white;
+}
+.refer-btn:hover{
+    background-color: #19417C;
+}
+.refer-btn button{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100;
+    color: white;
+}
+.setting_section h5{
+    color: white;
+    font-family: Noto Serif TC;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.logout-btn{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+#logout-btn{
+    color: white;
+}
+.logout-btn button{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100;
+    color: white;
+}
+.bottom-text{
+    display: flex;
+    padding-bottom: 8px;
+}
+.bottom-text1 p{
+    color: white;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100; 
+}
